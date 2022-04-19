@@ -522,7 +522,7 @@ void draw() {
 
 		case GAME_OVER: // Gameover Screen
 		image(gameover, 0, 0);
-		println("WTF");
+		//println("WTF");
 		if(START_BUTTON_X + START_BUTTON_WIDTH > mouseX
 	    && START_BUTTON_X < mouseX
 	    && START_BUTTON_Y + START_BUTTON_HEIGHT > mouseY
