@@ -629,8 +629,8 @@ void draw() {
      for(int j=1; j<24; j++){
         soilEmptyPo[j]=floor(random(0,8));
         soilEmptyPo2[j]=floor(random(0,8)); 
-        print(soilEmptyPo[j]);
-        print(soilEmptyPo2[j]);
+        //print(soilEmptyPo[j]);
+        //print(soilEmptyPo2[j]);
         soilHealth[soilEmptyPo[j]][j] =0;
         soilHealth[soilEmptyPo2[j]][j] =0;
   }
