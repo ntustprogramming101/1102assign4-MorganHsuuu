@@ -576,7 +576,7 @@ void draw() {
       image(restartNormal, START_BUTTON_X, START_BUTTON_Y);
 
     }
-   setup();
+   //setup();
     break;
   }    
 }
